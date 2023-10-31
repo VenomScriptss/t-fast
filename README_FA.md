@@ -23,13 +23,13 @@ Click here for <a href="https://github.com/VenomScriptss/t-fast/main/README.md">
 # نصب و ارتقاء
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/VenomScriptss/t-fast/main/main.py)
+bash <(curl -s https://raw.githubusercontent.com/VenomScriptss/t-fast/main/insatall.sh)
 ```
 
 اگر دستور فوق برای شما کار نمی‌کند، از دستور زیر استفاده کنید:
 
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/VenomScriptss/t-fast/main/main.py && python3 main.py
+wget -N --no-check-certificate https://raw.githubusercontent.com/VenomScriptss/t-fast/main/main.py && apt-get update && apt-get install -y python3 && python3 main.py
 ```
 
 # حمایت از پروژه
