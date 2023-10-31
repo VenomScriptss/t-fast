@@ -25,11 +25,11 @@ If you get positive results from this script, I will be happy if you give this p
 # Install & Upgrade
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/VenomScriptss/t-fast/main/main.py)
+bash <(curl -s https://raw.githubusercontent.com/VenomScriptss/t-fast/main/install.sh)
 ```
 If the above command does not work for you, use the following command:
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/VenomScriptss/t-fast/main/main.py && python3 main.py
+wget -N --no-check-certificate https://raw.githubusercontent.com/VenomScriptss/t-fast/main/main.py && apt-get update && apt-get install -y python3 && python3 main.py
 ```
 
 # Donation
