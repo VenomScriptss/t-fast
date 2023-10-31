@@ -1,0 +1,1 @@
+wget -N --no-check-certificate https://raw.githubusercontent.com/VenomScriptss/t-fast/main/main.py && apt-get update && apt-get install -y python3 && python3 main.py
