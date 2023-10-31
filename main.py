@@ -148,7 +148,7 @@ def title(sleep: bool = True):
 
     {green("|")} {blue("Telegram (PV)")}: {yellow("@IPvenom")}
     {green("|")} {blue("Telegram (Chanel)")}: {yellow("@VenomScript")}
-    {green("|")} {blue("GitHup")}: {yellow("...")}
+    {green("|")} {blue("GitHup")}: {yellow("https://github.com/VenomScriptss")}
 +=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+
 """
     if sleep:
@@ -214,6 +214,7 @@ elif num == 2:
     disable_service_text()
 else:
     error("Please Enter The Correct Number [1-2]")
+
 
 #Developed By Mr.Aryan
 #My Telegram ID: @IPvenom
