@@ -1,5 +1,5 @@
 <div align="center">
-برای توضیحات <a href="https://github.com/VenomScriptss/t-fast/main/README_FA.md"> فارسی اینجا بزنید </a>
+برای توضیحات <a href="https://github.com/VenomScriptss/t-fast/blob/main/README_FA.md"> فارسی اینجا بزنید </a>
 </div>
 <br><br>
 
