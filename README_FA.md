@@ -1,5 +1,5 @@
 <div align="center">
-Click here for <a href="https://github.com/VenomScriptss/t-fast/main/README.md"> English description </a>
+Click here for <a href="https://github.com/VenomScriptss/t-fast"> English description </a>
 </div>
 <br><br>
 
