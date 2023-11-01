@@ -25,8 +25,13 @@ def check_status():
     for setting, value in expected_settings.items():
         try:
             result = os.popen(f"sysctl -n {setting}").read().strip()
-            if result != value:
+            if result == value:
+                return True
+            elif result == int(value):
+                return True
+            else:
                 return False
+            
         except:
             return False
     return True
