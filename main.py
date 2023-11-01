@@ -20,7 +20,7 @@ def check_status():
         "net.ipv4.tcp_ecn": "1",
         "net.ipv4.tcp_frto": "2",
         "net.ipv4.tcp_sack": "1",
-        "net.ipv4.tcp_congestion_control": "bbr",
+        "net.ipv4.tcp_congestion_control": "cubic",
     }
     for setting, value in expected_settings.items():
         try:
@@ -89,7 +89,7 @@ def enable_service():
     subprocess.getoutput("sysctl -w net.ipv4.tcp_ecn=1")
     subprocess.getoutput("sysctl -w net.ipv4.tcp_frto=2")
     subprocess.getoutput("sysctl -w net.ipv4.tcp_sack=1")
-    subprocess.getoutput("sysctl -w net.ipv4.tcp_congestion_control=bbr")
+    subprocess.getoutput("sysctl -w net.ipv4.tcp_congestion_control=cubic")
     subprocess.getoutput("sysctl -p")
 
 
